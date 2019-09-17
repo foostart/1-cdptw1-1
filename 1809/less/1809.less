@@ -1,0 +1,45 @@
+.type-1809{
+    .inner-header{
+        padding: 70px 0 70px 0;
+        background-image: url(../images/subheader.jpg);
+        background-position: 50% 450px;
+        h2 {
+            color: #eceff3;
+            margin-top: 40px;
+            font-size: 32px;
+            letter-spacing: 5px;
+            float: left;
+            padding-right: 40px;
+            margin-right: 40px;
+            text-transform: uppercase;
+        }
+        .breadcrumbs{
+            font-size: 10px;
+            letter-spacing: 3px;
+            margin-top: 50px;
+            text-transform: uppercase;
+            float: right;
+          
+            .text-yellow{
+                color: #FAB702;
+                text-decoration: none;
+            }
+            .text-yellow:hover{
+                color: #fff;
+            }
+            .text-success{
+                color: #fff;
+            }
+        }
+    }
+    
+    @media (max-width: 768px){
+        .breadcrumbs{
+            display: none;
+        }
+        
+        .inner-header{
+            padding-bottom: 0;
+        }
+    }
+}

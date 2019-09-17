@@ -1,0 +1,297 @@
+/**
+    * Huỳnh chí cường _ menu
+**/
+/**
+* Fonts
+**/
+@font-face {
+    font-family: "FontAwesome";
+    src: url("../fonts/fontawesome-webfont3e6e.eot"); /* IE9 Compat Modes */
+    src: url("../fonts/fontawesome-webfont3e6e.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+ 
+      url("../fonts/fontawesome-webfont3e6e.svg") format("svg"), /* Legacy iOS */
+      url("../fonts/fontawesome-webfont3e6e.ttf") format("truetype"), /* Safari, Android, iOS */
+      url("../fonts/fontawesome-webfont3e6e.woff") format("woff"), /* Modern Browsers */
+      url("../fonts/fontawesome-webfont3e6e.woff2") format("woff2"); /* Modern Browsers */
+    	font-weight: normal;
+    	font-style: normal;
+  } 
+body {
+    position: relative;
+    overflow-x: hidden;
+}
+.type-1800{
+	.main-herader {
+		position: relative;
+		background: #ffffff;
+		.header-navbar {
+			width: 100%;
+			height: 80px;
+			position: fixed;
+			top: 0px;
+			left: 0px;
+			z-index: 999;
+			transition: height 0.3s ease 0s;
+			background: rgb(24, 25, 27);
+			border-bottom: 1px solid rgba(0, 0, 0, 0);
+			.navbar-brand {
+				padding: 0;
+				margin-top: 25px;
+				height: auto; 
+			}
+			.navbar-brand img {
+				width: 220px;
+				height: auto;
+			}
+			 .navbar {
+				margin-bottom: 0;
+			}
+			.navbar-default {
+				background: transparent;
+				border: none;
+				padding: 0;
+				.navbar-nav>li>a {
+					font-size: 1.3rem;
+					color: #fff;
+					display: inline-block;
+					line-height: 35px;
+					text-align: center;
+					padding: 25px 0px 25px 25px;
+					text-decoration: none;
+					outline: none;
+					
+					text-transform: uppercase;
+					&::after {
+						float: right;
+						position: relative;
+						font-family: "FontAwesome";
+						content: "\f111";
+						font-size: 6px;
+						margin-left: 20px;
+						margin-top: 0px;
+						color: #FAB702;
+					}
+				   
+				}
+				.navbar-nav>.active>a,
+				.navbar-nav>li>a:hover {
+					color: rgb(250, 183, 2);
+					background-color: transparent;
+					
+				}
+				.navbar-nav>li>a:focus,
+				.navbar-nav>li>a:hover {
+					background: transparent;
+				}
+				.navbar-nav>.open>a,
+				.navbar-nav>.open>a:focus,
+				.navbar-nav>.open>a:hover {
+					background-color: transparent;
+					color: #FAB702;
+					
+				}
+			}
+			.dropdown-menu {
+				min-width: 220px;
+			}
+			.navbar-right .dropdown-menu {
+				right: auto;
+			}
+			.navbar-nav .dropdown-menu {
+				padding: 0;
+				border: none;			
+				border-radius: 0;
+				margin-left: 5px;
+				margin-right: 5px;
+				li{
+					a {
+						padding: 15px 10px;
+						color:  #888;
+						font-size: 15px;
+						text-transform: uppercase;
+						&:hover{
+							
+								padding-left: 15px;
+								color: #fff;
+								background-color: #FAB702;
+							
+						}
+					}
+				}
+
+			}
+			
+			.navbar-nav>li>.dropdown-menu {
+				margin-top: -5px;
+				background-color: #333;
+			}
+			.navbar-nav .dropdown-menu>li {
+				border: 1px solid #fff;
+			}
+
+		}
+	}
+}
+
+
+
+ 
+
+
+
+
+
+
+
+@media only screen and (min-width:692px) and (max-width:1090px){
+	.type-1800 {
+		a{
+			//font-size: 10px !important;
+			text-transform: none !important;
+		}
+	}
+	
+}
+
+
+
+
+@media only screen and (max-width:1100px) {
+	.type-1800 {
+		.header-navbar .navbar-default .navbar-nav>li>a{
+			padding: 25px 0px 25px 20px !important;
+		}
+	}
+	
+}
+
+@media only screen and (max-width:991px) {
+	.type-1800{
+		.header-navbar .navbar-default .navbar-nav>li>a{
+			padding: 25px 0px 25px 10px !important;
+		}
+		.navbar-header {
+			margin: 0 auto;
+			text-align: center;
+			width: 180px;
+		}
+		.navbar-collapse {
+			margin : 0 -15px;
+		}
+		.dropdown-menu {
+			max-width: 100%;
+		}
+	}
+	
+	
+	
+}
+
+@media only screen and (max-width:840px) {
+	.type-1800{
+		
+		.header-navbar .navbar-default .navbar-nav>li>a{
+			padding: 25px 0px 25px 10px !important;
+		}
+	}
+	
+}
+
+@media only screen and (max-width:767px) {
+	.type-1800 {
+		.header-navbar .navbar-brand {
+			padding: 0 15px;
+			margin-top: 5px;
+		}
+		.header-navbar .navbar-toggle {
+			border-radius: 0;
+			margin: 20px 15px;
+		}
+		
+		
+		
+		
+		.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+			background-color: transparent;
+		}
+		.main-nav.top-nav-collapse .icon-bar {
+			background: #333333;
+		}
+		.navbar-collapse {
+			
+			margin-top: 20px;
+
+		}
+		.container>.navbar-collapse {
+			margin-left: 0;
+			margin-right: 0;
+		}
+		.main-nav .navbar-right {
+			background: #f1f1f1;
+			margin: 0 -15px;
+			padding: 10px 0;
+		}
+		.main-nav .navbar-nav>li {
+			width: 100%;
+			text-align: center;
+		}
+		.main-nav .navbar-nav>li>a {
+			margin-top: 0;
+			margin-left: 0;
+			color: #666666;
+		}
+		.navbar-header {
+			float: left;
+			width: 100% !important;
+		}
+		.header-navbar .navbar-nav {
+			text-align: left;
+		}
+		.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+			background-color: #000000;
+	
+		}
+		.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+			color:#fff;
+		}
+	}	
+}
+@media only screen and (max-width:600px) {
+	.type-1800 {
+		.header-navbar .navbar-nav .dropdown-menu>li {
+			border: none;
+		}
+		.main-nav .navbar-brand {
+			width: 180px;
+			height: auto;
+		}
+	
+		
+		.header-navbar .navbar-brand {
+			margin-top: 15px;
+		}
+		.header-navbar .navbar-brand img {
+			width: 170px;
+			
+		}
+		
+	}	
+}
+@media only screen and (max-width:420px) {
+	.type-1800 {
+		.header-navbar .navbar-brand {
+			margin-top: 15px;
+		}
+		.header-navbar .navbar-brand img {
+			width: 170px;
+		}
+		.navbar-toggle {
+			margin-bottom: 0;
+		}
+		.header-navbar .navbar-brand img {
+			width: 155px;
+		}
+	}
+	
+
+}
