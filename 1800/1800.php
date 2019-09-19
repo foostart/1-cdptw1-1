@@ -29,12 +29,10 @@
         <script src="js/jquery-2.1.4.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/fontawesome.min.js"></script>
-        <script src="js/1800.js"></script>
     </head>
-
     <body>   
         <?php  $dir_block.include'1800-content.php'; ?>
-
+        <script src="./js/1800.js"></script>
     </body>
     
    

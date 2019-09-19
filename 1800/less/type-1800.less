@@ -69,7 +69,7 @@ body {
 						font-size: 6px;
 						margin-left: 20px;
 						margin-top: 0px;
-						color: #FAB702;
+						color: #787878;
 					}
 				   
 				}
@@ -77,6 +77,9 @@ body {
 				.navbar-nav>li>a:hover {
 					color: rgb(250, 183, 2);
 					background-color: transparent;
+					&::after { 
+						color: #FAB702;
+					}
 					
 				}
 				.navbar-nav>li>a:focus,
@@ -88,7 +91,9 @@ body {
 				.navbar-nav>.open>a:hover {
 					background-color: transparent;
 					color: #FAB702;
-					
+					&::after { 
+						color: #FAB702;
+					}
 				}
 			}
 			.dropdown-menu {
@@ -208,7 +213,9 @@ body {
 			margin: 20px 15px;
 		}
 		
-		
+		.navbar-nav li {
+			font-weight: bold;
+		}
 		
 		
 		.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {

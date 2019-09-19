@@ -60,12 +60,16 @@ body {
   font-size: 6px;
   margin-left: 20px;
   margin-top: 0px;
-  color: #FAB702;
+  color: #787878;
 }
 .type-1800 .main-herader .header-navbar .navbar-default .navbar-nav>.active>a,
 .type-1800 .main-herader .header-navbar .navbar-default .navbar-nav>li>a:hover {
   color: #fab702;
   background-color: transparent;
+}
+.type-1800 .main-herader .header-navbar .navbar-default .navbar-nav>.active>a::after,
+.type-1800 .main-herader .header-navbar .navbar-default .navbar-nav>li>a:hover::after {
+  color: #FAB702;
 }
 .type-1800 .main-herader .header-navbar .navbar-default .navbar-nav>li>a:focus,
 .type-1800 .main-herader .header-navbar .navbar-default .navbar-nav>li>a:hover {
@@ -75,6 +79,11 @@ body {
 .type-1800 .main-herader .header-navbar .navbar-default .navbar-nav>.open>a:focus,
 .type-1800 .main-herader .header-navbar .navbar-default .navbar-nav>.open>a:hover {
   background-color: transparent;
+  color: #FAB702;
+}
+.type-1800 .main-herader .header-navbar .navbar-default .navbar-nav>.open>a::after,
+.type-1800 .main-herader .header-navbar .navbar-default .navbar-nav>.open>a:focus::after,
+.type-1800 .main-herader .header-navbar .navbar-default .navbar-nav>.open>a:hover::after {
   color: #FAB702;
 }
 .type-1800 .main-herader .header-navbar .dropdown-menu {
@@ -147,6 +156,9 @@ body {
   .type-1800 .header-navbar .navbar-toggle {
     border-radius: 0;
     margin: 20px 15px;
+  }
+  .type-1800 .navbar-nav li {
+    font-weight: bold;
   }
   .type-1800 .navbar-default .navbar-toggle:focus,
   .type-1800 .navbar-default .navbar-toggle:hover {
