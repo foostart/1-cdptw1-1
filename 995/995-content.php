@@ -8,7 +8,7 @@ preg_match_all($pattern_uri, __DIR__, $matches);
 $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
-        <div class="type-995">
+<div class="type-995">
             <div class="row">
                 <div class="container">
                     <div id="footer">
@@ -59,7 +59,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                             <a href="#" target="_blank">
                                                 <img src="<?php echo $url_path ?>/images/type-12/facebook.png" alt="Facebook">
                                             </a>
-                                        </li>
+                                        </li >
                                         <li>
                                             <a href="#" target="_blank">
                                                 <img src="<?php echo $url_path ?>/images/type-12/google.png" alt="Google">
