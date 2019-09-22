@@ -66,6 +66,42 @@ $url_path = str_replace('\\', '/', $url_path);
                 <a href="#">ADD TO CART</a>
             </div>
         </li> <!-- cd-item -->
+    </ul>
+    <ul class="cd-items cd-container">
+        <li class="cd-item">
+            <img src="images/item-1.jpg" alt="Item Preview">
+            <div  class="cd-trigger"></div>
+            <div class="icon-stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star " ></i>
+            </div>
+            <a class="name-view">Artistic Wood Hanger</a>
+            <p class="price-view">$150.00</p>
+            <div class="add-to-cart">
+                <a href="#">ADD TO CART</a>
+            </div>
+        </li> <!-- cd-item -->
+
+        <li class="cd-item">
+            <img src="images/item-2.jpg" alt="Item Preview">
+            <div class="cd-trigger">
+            </div>       
+            <div class="icon-stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star " ></i>
+            </div>
+            <a class="name-view">Artistic Wood Hanger</a>
+            <p class="price-view">$150.00</p>
+            <div class="add-to-cart">
+                <a href="#">ADD TO CART</a>
+            </div>
+        </li> <!-- cd-item -->
 
         <li class="cd-item">
             <img src="images/item-3.jpg" alt="Item Preview">
@@ -85,9 +121,45 @@ $url_path = str_replace('\\', '/', $url_path);
                 <a href="#">ADD TO CART</a>
             </div>
         </li> <!-- cd-item -->
+    </ul>
+    <ul class="cd-items cd-container">
+        <li class="cd-item">
+            <img src="images/item-1.jpg" alt="Item Preview">
+            <div  class="cd-trigger"></div>
+            <div class="icon-stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star " ></i>
+            </div>
+            <a class="name-view">Artistic Wood Hanger</a>
+            <p class="price-view">$150.00</p>
+            <div class="add-to-cart">
+                <a href="#">ADD TO CART</a>
+            </div>
+        </li> <!-- cd-item -->
 
         <li class="cd-item">
-            <img src="images/item-5.jpg" alt="Item Preview">
+            <img src="images/item-2.jpg" alt="Item Preview">
+            <div class="cd-trigger">
+            </div>       
+            <div class="icon-stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star " ></i>
+            </div>
+            <a class="name-view">Artistic Wood Hanger</a>
+            <p class="price-view">$150.00</p>
+            <div class="add-to-cart">
+                <a href="#">ADD TO CART</a>
+            </div>
+        </li> <!-- cd-item -->
+
+        <li class="cd-item">
+            <img src="images/item-3.jpg" alt="Item Preview">
             <div  class="cd-trigger">
             </div>
             <div class="icon-stars">
@@ -104,11 +176,11 @@ $url_path = str_replace('\\', '/', $url_path);
                 <a href="#">ADD TO CART</a>
             </div>
         </li> <!-- cd-item -->
-
+    </ul>
+    <ul class="cd-items cd-container">
         <li class="cd-item">
-            <img src="images/item-6.jpg" alt="Item Preview">
-            <div  class="cd-trigger">
-            </div>
+            <img src="images/item-1.jpg" alt="Item Preview">
+            <div  class="cd-trigger"></div>
             <div class="icon-stars">
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
@@ -116,45 +188,6 @@ $url_path = str_replace('\\', '/', $url_path);
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star " ></i>
             </div>
-            <a class="name-view">Artistic Wood Hanger</a>
-            <p class="price-view">$150.00</p>
-
-            <div class="add-to-cart">
-                <a href="#">ADD TO CART</a>
-            </div>
-        </li> <!-- cd-item -->
-
-        <li class="cd-item">
-            <img src="images/item-4.jpg" alt="Item Preview">
-            <div  class="cd-trigger">
-            </div>
-            <div class="icon-stars">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star " ></i>
-            </div>
-            <a class="name-view">Artistic Wood Hanger</a>
-            <p class="price-view">$150.00</p>
-
-            <div class="add-to-cart">
-                <a href="#">ADD TO CART</a>
-            </div>
-        </li> <!-- cd-item -->
-
-        <li class="cd-item">
-            <img src="images/item-6.jpg" alt="Item Preview">
-            <div  class="cd-trigger">
-            </div>
-            <div class="icon-stars">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star " ></i>
-            </div>
-
             <a class="name-view">Artistic Wood Hanger</a>
             <p class="price-view">$150.00</p>
             <div class="add-to-cart">
@@ -163,10 +196,9 @@ $url_path = str_replace('\\', '/', $url_path);
         </li> <!-- cd-item -->
 
         <li class="cd-item">
-            <img src="images/item-5.jpg" alt="Item Preview">
-            <div  class="cd-trigger">
-            </div>
-            </div>
+            <img src="images/item-2.jpg" alt="Item Preview">
+            <div class="cd-trigger">
+            </div>       
             <div class="icon-stars">
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
@@ -175,19 +207,15 @@ $url_path = str_replace('\\', '/', $url_path);
                 <i class="fa fa-star " ></i>
             </div>
             <a class="name-view">Artistic Wood Hanger</a>
-
             <p class="price-view">$150.00</p>
-
-
             <div class="add-to-cart">
                 <a href="#">ADD TO CART</a>
             </div>
         </li> <!-- cd-item -->
 
         <li class="cd-item">
-            <img src="images/item-9.jpg" alt="Item Preview">
+            <img src="images/item-3.jpg" alt="Item Preview">
             <div  class="cd-trigger">
-            </div>
             </div>
             <div class="icon-stars">
                 <i class="fa fa-star"></i>
@@ -197,54 +225,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 <i class="fa fa-star " ></i>
             </div>
             <a class="name-view">Artistic Wood Hanger</a>
-
             <p class="price-view">$150.00</p>
-
-
-            <div class="add-to-cart">
-                <a href="#">ADD TO CART</a>
-            </div>
-        </li> <!-- cd-item -->
-
-        <li class="cd-item">
-            <img src="images/item-8.jpg" alt="Item Preview">
-            <div  class="cd-trigger">
-            </div>
-            </div>
-            <div class="icon-stars">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star " ></i>
-            </div>
-            <a class="name-view">Artistic Wood Hanger</a>
-
-            <p class="price-view">$150.00</p>
-
-
-            <div class="add-to-cart">
-                <a href="#">ADD TO CART</a>
-            </div>
-        </li> <!-- cd-item -->
-
-        <li class="cd-item">
-            <img src="images/item-7.jpg" alt="Item Preview">
-            <div  class="cd-trigger">
-            </div>
-
-            </div>
-            <div class="icon-stars">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star " ></i>
-            </div>
-            <a class="name-view">Artistic Wood Hanger</a>
-
-            <p class="price-view">$150.00</p>
-
 
             <div class="add-to-cart">
                 <a href="#">ADD TO CART</a>

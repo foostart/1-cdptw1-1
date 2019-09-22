@@ -1,7 +1,6 @@
 *,
 *::after,
 *::before {
-  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
@@ -88,6 +87,7 @@ header h1 {
 @media only screen and (min-width: 768px) {
   .cd-items {
     padding: 2em 0 0;
+    display: flex;
   }
 }
 @media only screen and (min-width: 1024px) {
@@ -113,20 +113,27 @@ header h1 {
   .cd-item {
     width: 48%;
     float: left;
-    margin: 0 4% 2em 0;
   }
   .cd-item:nth-child(2n) {
     margin-right: 0;
+  }
+  .cd-item:nth-child(3n - 1) {
+    margin: 0px 20px;
+  }
+  .cd-item:nth-child(3n - 2) {
+    margin-left: 40px;
+  }
+  .cd-item:nth-child(3n) {
+    margin-right: 40px;
   }
 }
 @media only screen and (min-width: 1024px) {
   .cd-item {
     width: 29%;
     float: left;
-    margin: 0 4% 2.8em 0;
   }
-  .cd-item:nth-child(2n) {
-    margin-right: 4%;
+  .cd-item {
+    flex: calc(33.333333333333%);
   }
   .cd-item.empty-box::after {
     position: absolute;
@@ -513,6 +520,8 @@ a.name-view {
 a.name-view:hover {
   color: #555;
   transition: 0.3s;
+  text-decoration: none;
+  cursor: pointer;
 }
 .icon-stars {
   margin: 10px;
