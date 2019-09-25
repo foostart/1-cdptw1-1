@@ -17,15 +17,17 @@ $less = new lessc;
 $less->compileFile('less/995.less', 'css/995.css');
 ?>
 <html lang="vi">
-    <head>      
-        <title>995</title>
-        <meta charset="utf-8">     
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">      
-        <link href="<?php echo $url_path ?>/css/all_css.css" rel="stylesheet" type="text/css"/>
-        <link href="<?php echo $url_path ?>/css/995.css" rel="stylesheet" type="text/css"/>
-    </head>
-    <body>
-        <?php include $dir_block . '/995-content.php'; ?>
-    </body>
+
+<head>
+    <title>995</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="<?php echo $url_path ?>/css/all_css.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo $url_path ?>/css/995.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <?php include $dir_block . '/995-content.php'; ?>
+</body>
 
 </html>
