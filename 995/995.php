@@ -21,7 +21,7 @@ $less->compileFile('less/995.less', 'css/995.css');
 <head>
     <title>995</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="css/bootstrap-4.3.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link href="<?php echo $url_path ?>/css/all_css.css" rel="stylesheet" type="text/css" />
     <link href="<?php echo $url_path ?>/css/995.css" rel="stylesheet" type="text/css" />
 </head>
