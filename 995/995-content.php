@@ -46,17 +46,17 @@ $url_path = str_replace('\\', '/', $url_path);
                         <ul>
                             <li>
                                 <a href="#" target="_blank">
-                                    <img src="<?php echo $url_path ?>/images/type-12/facebook.png" alt="Facebook">
+                                    <img src="<?php echo $url_path ?>/images/facebook.png" alt="Facebook">
                                 </a>
                             </li>
                             <li>
                                 <a href="#" target="_blank">
-                                    <img src="<?php echo $url_path ?>/images/type-12/google.png" alt="Google">
+                                    <img src="<?php echo $url_path ?>/images/google.png" alt="Google">
                                 </a>
                             </li>
                             <li>
                                 <a href="#" target="_blank">
-                                    <img src="<?php echo $url_path ?>/images/type-12/youtube.png" alt="Youtube">
+                                    <img src="<?php echo $url_path ?>/images/youtube.png" alt="Youtube">
                                 </a>
                             </li>
                         </ul>
