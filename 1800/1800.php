@@ -13,7 +13,7 @@ if (!class_exists('lessc')) {
 }
 
 $less = new lessc;
-$less->compileFile('less/type-1800.less', 'css/1800.css');
+$less->compileFile('less/1800.less', 'css/1800.css');
 
 ?>
 <!DOCTYPE html>
