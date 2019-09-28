@@ -13,16 +13,28 @@ $url_path = str_replace('\\', '/', $url_path);
 ?>
 
 <div class="type-1809">
-    <section class="pt-5 pb-5 bg-dark inner-header">
+    <div class="inner-header">
         <div class="container">
             <div class="row">
-                <div class="col-md-12 text-center">
-                    <h2 class="mt-0 mb-3 text-white">ABOUT US</h2>
-                    <div class="breadcrumbs">
-                        <p class="mb-0 text-white"><a class="text-yellow" href="#">Home</a><span class="text-success"> / ABOUT US</span></p>
+                <div class="col-md-12">
+                    <div class="col-md-6">
+                        <a class="logo" href="#">
+                            RESIDENTIAL DESIGN
+                        </a>
+                    </div>
+                    <div class="col-md-6">
+                        <a class="text" href="#">Home <span class="text-a"> / RESIDENTIAL DESIGN</span></a>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+    <div class="text">
+        <h1>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Sed nemo quis consectetur praesentium minima quas hic est odio laboriosam,
+            quam optio facere qui pariatur. Ratione, amet veritatis.
+            Laboriosam, totam mollitia.
+        </h1>
+    </div>
 </div>

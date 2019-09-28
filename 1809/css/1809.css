@@ -3,35 +3,34 @@
   background-image: url(../images/subheader.jpg);
   background-position: 50% 450px;
 }
-.type-1809 .inner-header h2 {
+.type-1809 .inner-header .logo {
   color: #eceff3;
-  margin-top: 40px;
+  margin-top: 20px;
   font-size: 32px;
   letter-spacing: 5px;
   float: left;
   padding-right: 40px;
   margin-right: 40px;
   text-transform: uppercase;
-}
-.type-1809 .inner-header .breadcrumbs {
-  font-size: 10px;
-  letter-spacing: 3px;
-  margin-top: 50px;
-  text-transform: uppercase;
-  float: right;
-}
-.type-1809 .inner-header .breadcrumbs .text-yellow {
-  color: #FAB702;
   text-decoration: none;
 }
-.type-1809 .inner-header .breadcrumbs .text-yellow:hover {
-  color: #fff;
+.type-1809 .inner-header .text {
+  text-decoration: none;
+  font-size: 11px;
+  letter-spacing: 3px;
+  margin-top: 35px;
+  text-transform: uppercase;
+  float: right;
+  color: #FAB702;
 }
-.type-1809 .inner-header .breadcrumbs .text-success {
-  color: #fff;
+.type-1809 .inner-header .text .text-a {
+  color: #eceff3;
+}
+.type-1809 .inner-header .text:hover {
+  color: #eceff3;
 }
 @media (max-width: 768px) {
-  .type-1809 .breadcrumbs {
+  .type-1809 .text {
     display: none;
   }
   .type-1809 .inner-header {
