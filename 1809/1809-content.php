@@ -16,7 +16,7 @@ $url_path = str_replace('\\', '/', $url_path);
     <div class="inner-header">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
+               
                     <div class="col-md-6">
                         <a class="logo" href="#">
                             RESIDENTIAL DESIGN
@@ -25,7 +25,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="col-md-6">
                         <a class="text" href="#">Home <span class="text-a"> / RESIDENTIAL DESIGN</span></a>
                     </div>
-                </div>
+               
             </div>
         </div>
     </div>

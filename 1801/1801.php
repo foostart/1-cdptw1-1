@@ -26,13 +26,9 @@ $less->compileFile('less/1801.less', 'css/1801.css');
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="css/owl.carousel.min.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="css/animate.css">
     <script src="js/swiper.min.js"></script>
     <script src="js/jquery-2.1.4.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/wow.js"></script>
     <script src="js/1801.js"></script>
     <link href="css/1801.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="css/swiper.min.css">

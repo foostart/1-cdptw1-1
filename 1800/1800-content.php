@@ -26,30 +26,16 @@
                            <li><a href="#">About</a></li>
                            <li class="dropdown">
                               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects </a>
-                              <ul class="dropdown-menu">
-                                 <li><a href="#">Project 1</a></li>
-                                 <li><a href="#">Project 2</a></li>
-                                 <li><a href="#">Project 3</a></li>
-                                 <li><a href="#">Project 4</a></li>
-                              </ul>
+                             
                            </li>
                            <li class="dropdown">
                               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services </a>
-                              <ul class="dropdown-menu dropdownhover-bottom">
-                                 <li><a href="#">Services 1</a></li>
-                                 <li><a href="#">Services 2</a></li>
-                                 <li><a href="#">Services 3</a></li>
-                                 <li><a href="#">Services 4</a></li>
-                              </ul>
+                             
                            </li>
                            <li><a href="#">Blog</a></li>
                            <li class="dropdown">
                               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Shop </a>
-                              <ul class="dropdown-menu dropdownhover-bottom">
-                                 <li><a href="#">Shop 1</a></li>
-                                 <li><a href="#">Shop 2</a></li>
-                                 <li><a href="#">Shop 3</a></li>
-                              </ul>
+                             
                            </li>
                            <li><a href="#">Contact</a></li>
                         </ul>
