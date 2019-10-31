@@ -26,6 +26,9 @@
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
         <script src="js/modernizr.js"></script> <!-- Modernizr -->
+        <script src="js/jquery-2.1.1.js"></script>
+         <script src="js/velocity.min.js"></script>
+         <script src="js/1831.js" ></script>
         <link href="css/reset.css" rel="stylesheet" type="text/css"/>
     </head>
         <?php include './1831-content.php'; ?>
